@@ -35,7 +35,7 @@ function Sidebar() {
     return (
         <>
         <i class="fas fa-bars block sm:hidden" onClick={toggleSidebar} id='hamburger'></i>
-        <div  class={`${isOpen == true ? 'flex flex-col z-10 bg-[#FFFFFF] p-6 w-52  inset-y-0  shadow-md h-screen overflow-y-auto absolute' : 'hidden'}`}>
+        <div  class={`${isOpen == true ? 'flex flex-col z-10 bg-[#FFFFFF] p-3 w-52  inset-y-0  shadow-md h-screen overflow-y-auto absolute' : 'hidden'}`}>
           <h1 className='text-2xl font-bold mt-1 pl-6 text-center'>Playskill</h1>
           <hr className='mt-5 border-t-[3px]' />
           <div style={{top: "2px",left: "2px"}} className="bg-[#854685]  rounded-[50%] w-[100px] h-[100px] relative  mx-auto mt-5">
@@ -73,7 +73,7 @@ function Sidebar() {
             
           </div>
        
-          <div className="bg-[#FFFFFF] p-6 hidden md:flex lg:flex  md:flex-col md:w-52 inset-y-0  shadow-md sm:h-screen sm:overflow-y-auto">
+          <div className="bg-[#FFFFFF] p-3 hidden md:flex lg:flex  md:flex-col md:w-52 inset-y-0  shadow-md sm:h-screen sm:overflow-y-auto">
           <h1 className='text-2xl font-bold mt-1 pl-6 text-center'>Playskill</h1>
           <hr className='mt-5 border-t-[3px]' />
           <div style={{top: "2px",left: "2px"}} className="bg-[#854685]  rounded-[50%] w-[100px] h-[100px] relative  mx-auto mt-5">
