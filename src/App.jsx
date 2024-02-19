@@ -13,7 +13,7 @@ function App() {
             <div className="">
                 <Sidebar></Sidebar>
             </div>
-            <div className='overflow-y-auto w-[100vw] md:w-[calc(100vw-13rem)] h-screen z-0 m-8 mt-3'>
+            <div className=''>
                 <Main></Main>
             </div>
         </div>
