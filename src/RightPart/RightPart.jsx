@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import '../Main/Main.css'
 
 function RightPart() {
     const [date, setDate] = useState(new Date());
@@ -11,15 +12,15 @@ function RightPart() {
   
     return (
         <>
-        <div className="flex flex-col md:flex-row xl:flex-col mt-[50px] ml-5">
-           <div>
+        <div className="flex flex-col right_part xl:flex-col mt-0 xl:mt-[50px] ml-0 xl:ml-5">
+           <div className=''>
            <Calendar
         onChange={onChange}
         value={date}
-        className="border-none rounded-lg"
+        className="border-none rounded-lg "
       />
            </div>
-           <div className="bg-white rounded-lg p-3 mt-5">
+           <div className="bg-white rounded-lg p-3 mt-5 mb-5 ml-0 md:ml-5 xl:ml-0 md:mt-0 xl:mt-5 w-[100%] schedule ">
             <h1 className='text-2xl font-bold'>Schedule</h1>
             <div className="relative mt-3 py-7">
                 <div className="flex flex-row items-center">

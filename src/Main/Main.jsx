@@ -7,9 +7,9 @@ import RightPart from '../RightPart/RightPart'
 function Main() {
     return (
        <>
-      <div className="overflow-y-auto">
+      <div className="overflow-y-auto main1">
       <FirstRow></FirstRow>
-       <div className="flex flex-col xl:flex-row  z-0 mx-8 ">
+       <div className="flex flex-col xl:flex-row   main   md:mx-8 ">
         <MidPart></MidPart>
         <RightPart></RightPart>
        </div>

@@ -35,18 +35,20 @@ function Sidebar() {
     return (
         <>
         <i class="fas fa-bars block sm:hidden" onClick={toggleSidebar} id='hamburger'></i>
-        <div  class={`${isOpen == true ? 'flex flex-col z-10 bg-[#FFFFFF] p-3 w-52  inset-y-0  shadow-md h-screen overflow-y-auto sticky' : 'hidden'}`}>
+        <div  class={`${isOpen == true ? 'flex flex-col z-10 bg-white p-6 w-52  inset-y-0  shadow-md h-screen overflow-y-auto absolute' : 'hidden'}`}>
           <h1 className='text-2xl font-bold mt-1 pl-6 text-center'>Playskill</h1>
           <hr className='mt-5 border-t-[3px]' />
-          <div style={{top: "2px",left: "2px"}} className="bg-[#854685]  rounded-[50%] w-[100px] h-[100px] relative  mx-auto mt-5">
-                    <div style={{top:"2px",left:"2px"}} className="bg-white rounded-[50%] w-[96px] h-[96px] absolute">
-                        <div style={{    top: "5px",left: "5px"}} className="bg-[#FFF5FD] p-6 rounded-[50%] w-[87px] h-[86px] absolute border-2">
-                        <img src={person} className='absolute rounded-[50%] w-[88px] h-[86px] top-[-1px] left-[-1px] object-cover' alt="" />
-                        </div>
+          
+                 <div className="mx-auto rounded-[50%] relative mt-5 mb-24 w-[90px] h-[90px]">
+                 <img src={person} className='absolute rounded-[50%] w-[88px] h-[86px] top-[-1px] left-[-1px] object-cover border-2 border-[#854685]' alt="" />
+                 </div>
+                       
+                        
+                       
 
-                    </div>
+                   
                     
-                  </div>
+                  
                   <div className="mt-3 mx-auto">
                     <h1 className='text-xl font-bold'>Angelica Volnich</h1>
                      <h1 className='text-xs text-[#9F9EA6]'>angelicavolnich@gmail.com</h1>
@@ -73,7 +75,7 @@ function Sidebar() {
             
           </div>
        
-          <div className="bg-[#FFFFFF] p-3 hidden md:flex lg:flex  md:flex-col md:w-52 inset-y-0  shadow-md sm:h-screen sm:overflow-y-auto sticky">
+          <div className="bg-[#FFFFFF] p-3 z-10 hidden  md:flex lg:flex  md:flex-col md:w-52 inset-y-0  shadow-md sm:h-screen sm:overflow-y-auto sticky">
           <h1 className='text-2xl font-bold mt-1 pl-6 text-center'>Playskill</h1>
           <hr className='mt-5 border-t-[3px]' />
           <div style={{top: "2px",left: "2px"}} className="bg-[#854685]  rounded-[50%] w-[100px] h-[100px] relative  mx-auto mt-5">

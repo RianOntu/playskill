@@ -13,7 +13,7 @@ function MidThirdRow() {
              
             </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  bg-white rounded-[7px] p-6 sm:p-3 xl:p-6 gap-7 mt-3">
-        <div class="w-[200px] p-0">
+        <div class="w-[200px] p-0 mx-auto sm:mx-0">
   
   <div class="bg-[#F4F5F7] rounded-lg shadow-lg p-2">
                 <div className="bg-white rounded-lg p-3 pt-5 mx-auto">
@@ -30,7 +30,7 @@ function MidThirdRow() {
   </div>
 </div>
 
-<div class="w-[200px] p-0">
+<div class="w-[200px] p-0 mx-auto sm:mx-0">
   
   <div class="bg-[#F4F5F7] rounded-lg shadow-lg p-2">
                 <div className="bg-white rounded-lg p-3 pt-5 mx-auto">
@@ -47,7 +47,7 @@ function MidThirdRow() {
   </div>
 </div>
 
-<div class="w-[200px] p-0">
+<div class="w-[200px] p-0 mx-auto sm:mx-0">
   
   <div class="bg-[#F4F5F7] rounded-lg shadow-lg p-2">
                 <div className="bg-white rounded-lg p-3 pt-5 mx-auto">

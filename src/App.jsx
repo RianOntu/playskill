@@ -9,11 +9,11 @@ function App() {
   return (
     <>
 
-<div className="flex flex-row">
-            <div className="">
+<div className="flex flex-row ">
+            <div className="z-10">
                 <Sidebar></Sidebar>
             </div>
-            <div className=''>
+            <div className='w-[88%] sm:w-[100%] z-0'>
                 <Main></Main>
             </div>
         </div>
